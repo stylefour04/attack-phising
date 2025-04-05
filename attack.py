@@ -69,7 +69,7 @@ def spam_task(url, requests_count):
 
 def main():
     show_banner()
-    url = input("[?] Target URL (e.g. http://phishingsite.com/login.php): ").strip()
+    url = input("[?] Target URL (e.g. http://phishingsite.com): ").strip()
     total_requests = int(input("[?] Jumlah request (recommend 100-500): "))
     
     print("\n[!] Starting attack... (Ctrl+C to stop)")
